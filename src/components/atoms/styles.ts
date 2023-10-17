@@ -13,13 +13,13 @@ export const StyledLoadingButton = styled(LoadingButton)(() => ({
 	color: 'inherit',
 	borderColor: '#fff',
 
+	'& .MuiCircularProgress-root': {
+		color: 'white',
+	},
+
 	'& .MuiDialog-paper': {
 		width: '700px',
 		alignItems: 'center',
-	},
-
-	'& .muiloadingbutton-loadingindicator': {
-		color: 'white',
 	},
 
 	'&:disabled': {
